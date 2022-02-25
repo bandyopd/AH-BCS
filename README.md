@@ -32,7 +32,6 @@ For example, see lines 279-280 in code Biv-Sieve.R. Here,
 
 Copula.Name="clayton"   
 Copula.tau=0.25        
-utilizing the 
 
 implies, utilizing the Clayton copula, with tau=0.25. 
 
