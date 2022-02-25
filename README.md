@@ -28,7 +28,12 @@ User-defined function:
 Running the code: 
 
 Step 1: Define the copula type, and the value of Kendall's measure "tau". 
-For example, copula.inf=Copula.fun("frank",0.25) [see the line in the Main Code section, line 276] implies utilizing the 
-Frank copula, with tau=0.25. 
+For example, see lines 279-280 in code Biv-Sieve.R. Here, 
+
+Copula.Name="clayton"   
+Copula.tau=0.25        
+utilizing the 
+
+implies, utilizing the Clayton copula, with tau=0.25. 
 
 Step 2: Then, simply copy & paste the R code: Biv-Sieve.R
