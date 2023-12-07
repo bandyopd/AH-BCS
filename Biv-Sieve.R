@@ -426,8 +426,8 @@ for(i in 1:Sim.No) {
     MLE.b2=apply(b2.Est,2,mean)
     MLE.phi=apply(phi.Est,2,mean)
     MLE.Est=c(MLE.beta,MLE.b1,MLE.b2,MLE.phi)
-    BIC=log.like(MLE.Est)+2*log(n)*para.dim #-- compute the BIC value
-    
+    BIC=2*log.like(MLE.Est)+log(n)*para.dim #-- compute the BIC value
+    #Note: here the returned log.like is actually minus log-likelihood value;
     cat("copula type                    : ",Copula.Name, "\n")
     cat("degree of Bernstein polynomial : ",q, "\n")
     cat("b1 estimates                   : ",MLE.b1, "\n")
