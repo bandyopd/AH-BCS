@@ -1,5 +1,5 @@
 # AH-BCS
-R code for simulation experiments in the additive hazards model for bivariate current status data
+#R code for simulation experiments in the additive hazards model for bivariate current status data
 
 Manuscript: "Sieve estimation of the additive hazards model with bivariate current status data" (Under Revision), Statistics in Biosciences
 
