@@ -25,9 +25,9 @@ User-defined function:
 -	Types of copula that are used are Clayton, FGM, Frank, Gumbel, Gaussian with tau=0.25 & 0.5; for all of the types except tau=0.22 for FGM
 
 
-Running the code: 
+**Running the code**: 
 
-Step 1: Define the copula type, and the value of Kendall's measure "tau". 
+**Step 1**: Define the copula type, and the value of Kendall's measure "tau". 
 For example, see lines 279-280 in code Biv-Sieve.R. Here, 
 
 Copula.Name="clayton"   
@@ -35,4 +35,4 @@ Copula.tau=0.25
 
 implies, utilizing the Clayton copula, with tau=0.25. 
 
-Step 2: Then, simply copy & paste the R code: Biv-Sieve.R
+**Step 2**: Simply copy & paste the R code: Biv-Sieve.R
